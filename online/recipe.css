@@ -1,0 +1,295 @@
+.header{
+	background:#b6deea;
+	width:100%;
+	margin:auto;
+	color:#053a4a;
+	font-size:16px;
+	height:220px;
+}
+
+.logo{
+	border-radius:50%;
+	position:absolute;
+	top:40px;
+	left:19%;
+}
+#search{
+	width:25%;
+	height:35px;
+	position:absolute;
+	top:190px;
+	left:74%;
+	border:2px sides #b6deea;
+	border-radius:8px;
+	font-family:times new roman;
+	font-size:18px;
+	padding-left:20px;
+}
+.header h1{
+	font-size:60px;
+	left:34%;
+	position:absolute;
+	color:white;
+	top:20px;
+	font-style:oblique;
+}
+.header p{
+	font-size:20px;
+	left:33%;
+	position:absolute;
+	color:white;
+	top:110px;
+	font-style:oblique;
+	
+}
+.ab{
+
+overflow:auto;
+}
+.ab ul{
+	list-style:none;
+	padding:0;
+	margin: 0 ;
+	position:absolute;
+	left:88%;
+	top:65px;
+	
+}
+.ab li{
+	float:left;
+}
+.ab a{
+
+padding:15px;
+color:white;
+text-decoration:none;
+font-family:times new roman; 
+font-size:18px
+
+}
+.ab a:hover{
+color:#0d83a6;
+}
+
+.logo2{
+	border-radius:50%;
+	position:absolute;
+	top:15px;
+	left:89%;
+}
+.logo3{
+	border-radius:50%;
+	position:absolute;
+	top:15px;
+	left:95%;
+}
+.menu-bar {
+	width:100%;
+	background-color:#55b2ce;
+	overflow:auto;
+
+}
+.menu-bar ul{
+	padding:0;
+	margin: 0 ;
+	list-style:none;
+
+}
+.menu-bar li{
+	float:left;
+	
+}
+.menu-bar a{
+	color:white;
+	display:block;
+	padding:20px 30px 20px 30px ;
+	text-decoration:none;
+	text-align:center;
+}
+.menu-bar a:hover{
+	background:#0d92b9;
+	color:#ff66ff;
+}
+.sign_up{
+	background:#cee9f1;
+	padding:20px;
+	width:450px;
+	margin:auto;
+	color:#053a4a;
+	font-size:16px;
+	margin-top:100px;
+}
+.logo1{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:50px;
+	left:45%;
+}
+.cut{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:105px;
+	left:65%;
+	padding:10px;
+	
+}
+.cut:hover{
+	background:red;
+	transition:0.6s;
+	
+}
+.sign_up h1{
+	text-align:center;
+	margin:30px 0 10px 0;
+	padding:0;
+	color:#053a4a;
+	font-size:35px;
+}
+.sign_up input{
+	width:60%;
+	padding:10px ;
+	margin:8px 70px; 
+	border:1px inset #6dbdd5;
+	border-radius:4px;
+	font-size:16px;
+	font-family:times new roman;
+	background:#b6deea;
+	color:white;
+}
+.sign_up label{
+	padding:12px 5px ;
+	margin:8px 30px;
+	font-size:18px;
+}
+.sign_up input[type=checkbox]{
+	width:25px;
+	padding:8px 0;
+	margin:8px 35px;
+	font-size:18px;
+	
+}
+.sign_up input[type=submit]{
+	width:80%;
+	border:1px sides #0d92b9;
+	background:#0d83a6;
+	cursor:pointer;
+	color:#053a4a;
+	font-size:20px;
+	margin:8px 40px; 
+	border-radius:8px;
+}
+.sign_up input[type=submit]:hover{
+	background:#86c8dc;
+	transition:0.6s;
+	
+}
+
+div.content ul.tablist{
+	list-style:none;
+	padding:0;
+	margin: 0 ;
+	display:inline;
+}
+div.content ul.tablist li {
+	display:inline;
+	color:#0d0d0d;
+	padding:0 20px 0 20px;
+	font-size:20px;
+	font-family:times new roman; 
+	
+}
+div.content div.tabcontents div.show{display:block;}
+div.content div.tabcontents div.hide{display:none;}
+div.content ul.tablist li.active{color:#ff1a8c;}
+div.content div.tabcontents img.images{
+	background:black;
+	margin: 10px 50px 10px 170px;
+	padding:10px;
+	
+}
+div.content div.tabcontents p.path{
+	background:white;
+	border-radius:12px;
+	padding:10px;
+	margin:10px 50px 10px 50px;
+	color:#005266;
+	font-size:16px;
+	
+	
+	
+}
+.recipe2 h1{
+	font-family:times new roman; 
+	font-size : 50px;
+	color:#17424f;
+	text-align:center;
+	margin-top:40px;
+}
+
+div.recipe1{
+	
+	width:100%;
+	height:auto;
+}
+div.recipe1 div.recipe2{
+	width:73%;
+	background:#ebf6f9;
+	float:left;
+	
+}
+.Rimage{
+	background:#00264d;
+	margin: 10px 20px 10px 20px;
+	padding:10px;
+}
+.but{
+	background: #9cd3e3;
+	border:2px solid #246375;
+	border-radius:12px;
+	padding:10px;
+	margin:10px 50px 40px 50px;
+}
+div.recipe1 div.recipe3{
+float:left;
+width:27%;
+height:274vh;
+background-image:url(image/image27.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+transition:5s;
+
+animation-name:animate;
+animation-direction:alternate-reverese;
+animation-duration:30s;
+animation-fill-mode:forwards;
+animation-iteration-count:infinite;
+animation-play-state:running;
+animation-timing-function:ease-in-out;
+}
+@keyframes animate{
+	0%{
+		background-image:url(image/image26.jpg);
+	}
+	20%{
+		background-image:url(image/image6.jpg);
+	}40%{
+		background-image:url(image/image25.jpg);
+	}
+	60%{
+		background-image:url(image/image9.jpg);
+	}
+	80%{
+		background-image:url(image/image21.jpg);
+	}
+	100%{
+		background-image:url(image/image24.jpg);
+	}
+}
+.footer{
+	width:100%;
+	background:#002933;
+}

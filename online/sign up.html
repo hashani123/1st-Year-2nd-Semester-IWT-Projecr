@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>https://unicornonlinechef.com/Signup </title>
+		
+		<? php include("recipe.php"); ?>
+		<link rel = "stylesheet" type ="text/css" href ="recipe.css">
+		<script type = "text/javascript" src ="recipe.js"></script>
+		<style>
+		body{
+		background-image:url(image/image10.jpg);
+		background-size:cover;
+		}
+	
+	</style>
+</head>		
+<body>
+		
+		<div class ="sign_up">
+			<form name ="vform" action="recipe.php" method="POST" onsubmit ="return validate()">
+			<!--logo1 -->
+				<img src ="image/image12.png" alt = "signup" class= "logo1" ><br>
+			<!-- cut image -->	
+				<a href ="recipe.html"><img src ="image/image15.png" alt = "cut" class= "cut"></a>
+			<!--form -->
+				<h1><b>Sign Up Form</b></h1><br>
+				
+				<label><b>First Name</b></label><br> 
+				<input type ="text" name ="fName" id ="fName"placeholder ="First Name">
+				<div id ="fn_error"class ="fn_error"></div><br><br> 
+				
+				<label><b>Last Name</b></label><br> 
+				<input type ="text" name ="lName" id ="lName" placeholder ="Last Name">
+				<div id="ln_error" class ="ln_error"></div><br><br> 	
+				
+				<label><b>Email</b> </label><br> 
+				<input type ="email" name ="email" id ="Email"placeholder ="Email ">
+				<div id ="em_error"class ="em_error"></div><br><br>
+				
+				<label><b>Username </b></label><br> 
+				<input type ="text" name ="username"  id ="Username"placeholder ="Username">
+				<div  id ="un_error"class ="un_error"></div><br><br>
+				
+				<label><b>Password</b></label><br> 
+				<input type ="Password" name ="password" id ="Password" placeholder ="Password">
+				<div  id ="p_error"class ="p_error"></div><br><br>
+				
+				
+				<label><b>Conform Password</b></label><br> 
+				<input type ="Password" name ="conformPassword" id="conformPassword" placeholder ="Conform Password">
+				<div id ="cp_error" class ="cp_error"></div> <br><br>
+				<input type ="checkbox" id ="checkbox" name "checkbox"><b>I Accept Terms and Conditions</b>
+				<div id ="cb_error" class ="cb_error"></div> <br><br>
+				
+				
+				<input type ="submit" id="submit" value=" Sign up">
+				<div id ="su_error" class ="su_error"></div>
+			</form>
+			
+		</div>
+</body>
+</html>
